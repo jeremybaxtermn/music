@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,300&display=swap');
+
+header{
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align:center;
+	padding:10px 0px 10px 0px;
+}
+
+body{
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* End Navigation Bar */
+
+nav{
+	font-weight:bold;
+	background-color:gray;
+	text-align:center;
+	font-size:1.5em;
+	padding: 11px 0px 1px 0px;
+}
+
+nav ul{
+	list-style-type: none;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 15px;
+}
+nav a:link{
+	color:white;
+}
+nav a:visited{
+	color:white;
+}
+nav a:hover{
+	color:black;
+	text-decoration: none;
+}
+nav a:active{
+	color:yellow;
+	text-decoration: none;
+}
+
+/* End Navigation Bar */
+
+
+.logo{
+	margin: 0 auto;
+	display:block;
+}
+
+h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:bold;
+	font-size: 2em;
+}
+
+h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: blue;
+	background-color: white; 
+}
+
+img{
+
+}
+
+table{
+	border-collapse: collapse;
+}
+
+td, th{
+	border:1px solid #000080;
+	padding:5px;
+}
+
+th{
+	background-color:#000080;
+	color:white;
+}
+
+.mobile{
+	display:none;
+}
+
+label{
+	float:left;
+	width:8em;
+	padding-right:1em;
+}
+
+input,textarea{
+	margin-bottom:1em;
+	display:block;
+}
+
+input[type=submit]{
+	display:block;
+	background-color:lightgray;
+}
+
+button{
+	background-color: red;
+	border: none;
+	color: white;
+	padding: 15px 30px;
+	text-align: center;
+}
+
+footer{
+	background-color:gray;
+	color: white;
+	margin: 0 auto;
+	text-align:center;
+	padding:20px 0px 20px 0px;
+}
+
+footer a{
+	text-decoration:none;
+}
+footer a:link{
+	color:black;
+}
+footer a:visited{
+	color:black;
+}
+footer a:hover{
+	color:white;
+	text-decoration: none;
+}
+footer a:active{
+	color:yellow;
+	text-decoration: none;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+}
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display:block;
+	}
+}
