@@ -62,7 +62,7 @@ h1{
 
 h2{
 	font-family: 'Source Sans Pro', sans-serif;
-	color: blue;
+	color: #bd2626;
 	background-color: white; 
 }
 
@@ -82,6 +82,12 @@ td, th{
 th{
 	background-color:#000080;
 	color:white;
+}
+
+main{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding:20px 0px 20px 0px;
 }
 
 .mobile{
@@ -112,6 +118,11 @@ button{
 	text-align: center;
 }
 
+i.fa{
+	color: white;
+	font-size:2.5em;
+}
+
 footer{
 	background-color:gray;
 	color: white;
@@ -137,6 +148,8 @@ footer a:active{
 	color:yellow;
 	text-decoration: none;
 }
+
+
 
 /* CSS Adjustments for Tablets */
 @media only screen and (max-width: 1024px) {
